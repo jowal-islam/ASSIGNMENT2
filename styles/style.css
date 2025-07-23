@@ -1,0 +1,13 @@
+
+h1{
+    color: red;
+}
+/* shared class */
+
+.navber{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+}
