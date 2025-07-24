@@ -38,7 +38,7 @@ ul li a{
     /* position: relative; */
     margin: 0 auto;
     max-width: 90rem;
-    background-color: bisque;
+    /* background-color: bisque; */
     display: flex;
     margin-top: 50px;
 }
@@ -56,6 +56,21 @@ spen{
 }
 
 /* responsive layout */
-@media screen and(max-width: 768px) {
-    
+@media screen and (max-width: 768px) {
+    .nav-item{
+        display: none;
+    }
+    .nav-item.cart-item{
+        display: inline-block;
+    }
+   .header{
+     flex-direction: column-reverse;
+   }
+   .left-head, .right-head {
+    width: 100%;
+  }
+  .left-head{
+    margin: 0 20px;
+  }
+   
 }
