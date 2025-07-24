@@ -4,9 +4,7 @@ body {
   background-color: #f7f9ff;
 }
 
-h1{
-    color: red;
-}
+
 /* shared class */
 
 /* header section style start */
@@ -17,10 +15,7 @@ h1{
     display: flex;
     justify-content: space-between;
 }
-.right{
-   margin-right: 20px;
-    
-}
+
 .nav{
     display: flex;
     padding: 20px;
@@ -39,3 +34,28 @@ ul li a{
     color:#8987A1;
 }
 /* headr section end */
+.header{
+    /* position: relative; */
+    margin: 0 auto;
+    max-width: 90rem;
+    background-color: bisque;
+    display: flex;
+    margin-top: 50px;
+}
+.left-head{
+    
+   /* margin-top: 100px; */
+ 
+}
+.header-heading{
+    font-size: 65px;
+    font-weight: bold;
+}
+spen{
+    color:#E95A08;
+}
+
+/* responsive layout */
+@media screen and(max-width: 768px) {
+    
+}
