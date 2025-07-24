@@ -54,6 +54,40 @@ ul li a{
 spen{
     color:#E95A08;
 }
+/* main section start */
+main{
+    max-width: 90rem;
+    margin: 0 auto;
+}
+.first{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.flower-section-heading{
+    font-size: 50px;
+    font-weight: bold;
+}
+.flower-card{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 20px;
+}
+.flower-item{
+    border: 2px solid red;
+}
+.item-center{
+    text-align: center;
+}
+.flower-btn{
+    background-color: #E95A08;
+    width: 100%;
+    color: #f7f9ff;
+    padding: 20px;
+    border: none;
+}
+.flower-item img{
+    width: 100%;
+}
 
 /* responsive layout */
 @media screen and (max-width: 768px) {
