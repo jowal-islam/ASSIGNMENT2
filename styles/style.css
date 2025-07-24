@@ -58,13 +58,14 @@ spen{
 main{
     max-width: 90rem;
     margin: 0 auto;
+    margin-top: 129px;
 }
 .first{
     text-align: center;
     margin-bottom: 50px;
 }
 .flower-section-heading{
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
 }
 .flower-card{
@@ -88,6 +89,34 @@ main{
 .flower-item img{
     width: 100%;
 }
+/* flower section part */
+.flower-section{
+    display: flex;
+    margin-top: 140px;
+    justify-content: space-between;
+    gap: 50px;
+}
+.flower-img{
+    /* width:540px ; */
+}
+.flower-img img{
+    /* width: 100%; */
+}
+.flower-section-description{
+   /* background-color: aquamarine; */
+   /* width: 540px; */
+
+}
+.flower-heading{
+    font-size: 50px;
+    font-weight: bold;
+}
+ul li{
+    font-size: 30px;
+    color: black;
+    opacity: 0.5;
+    padding: 10px;
+}
 
 /* responsive layout */
 @media screen and (max-width: 768px) {
@@ -106,5 +135,8 @@ main{
   .left-head{
     margin: 0 20px;
   }
+  .flower-card{
+   grid-template-columns: repeat(2, 1fr); 
+}
    
 }
