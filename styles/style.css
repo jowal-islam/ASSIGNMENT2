@@ -96,16 +96,18 @@ main{
     justify-content: space-between;
     gap: 50px;
 }
+.flower-section div{
+    width: 50%;
+}
 .flower-img{
-    /* width:540px ; */
+    /* width:100% ; */
 }
 .flower-img img{
-    /* width: 100%; */
+    width: 100%;
+    height: auto;
 }
 .flower-section-description{
-   /* background-color: aquamarine; */
-   /* width: 540px; */
-
+ width: 100%;
 }
 .flower-heading{
     font-size: 50px;
@@ -137,6 +139,24 @@ ul li{
   }
   .flower-card{
    grid-template-columns: repeat(2, 1fr); 
+}
+.flower-section{
+    flex-direction: column;
+    gap: 10px;
+
+}
+.flower-section div{
+    width: 100%;
+}
+ul li{
+    font-size: 15px;
+    color: black;
+    padding: 5px;
+}
+.flower-heading{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
    
 }
